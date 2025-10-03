@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio | Nama Pemilik</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Header dengan Menu Toggle -->
+  <header class="header">
+    <h1 class="site-title"><i class="fas fa-user-circle"></i> Nama Pemilik</h1>
+    <div class="menu-toggle" id="menuToggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Menu Dropdown -->
+  <nav class="dropdown-menu" id="dropdownMenu">
+    <a href="#" class="menu-item">Opsi Menu</a>
+    <a href="#" class="menu-item">Technology</a>
+    <a href="#" class="menu-item">Contact</a>
+  </nav>
+
+  <!-- Konten Utama -->
+  <main class="main">
+    <section class="hero">
+      <img src="profile.jpg" alt="Profil" class="profile-img">
+      <h2 class="name">Nama Pemilik</h2>
+      <p class="age">Umur: 23 Tahun</p>
+    </section>
+
+    <section id="about" class="section">
+      <h3>About Me</h3>
+      <textarea placeholder="Tulis tentang diri kamu di sini..." class="text-input"></textarea>
+    </section>
+
+    <section id="education" class="section">
+      <h3>Education</h3>
+      <div class="form-group">
+        <label>Universitas:</label>
+        <input type="text" class="form-input" placeholder="Nama Universitas"/>
+      </div>
+      <div class="form-group">
+        <label>SMA:</label>
+        <input type="text" class="form-input" placeholder="Nama SMA"/>
+      </div>
+      <div class="form-group">
+        <label>SMP:</label>
+        <input type="text" class="form-input" placeholder="Nama SMP"/>
+      </div>
+      <div class="form-group">
+        <label>SD:</label>
+        <input type="text" class="form-input" placeholder="Nama SD"/>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h3>Experience</h3>
+      <textarea placeholder="Ceritakan pengalaman kerja kamu..." class="text-input"></textarea>
+    </section>
+
+    <section id="technology" class="section">
+      <h3>Technology</h3>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <img src="html-icon.png" alt="HTML" width="60"/>
+          <h4>HTML</h4>
+          <p>Struktur dasar dari setiap website. Menentukan konten dan struktur halaman.</p>
+        </div>
+        <div class="tech-item">
+          <img src="css-icon.png" alt="CSS" width="60"/>
+          <h4>CSS</h4>
+          <p>Membuat desain website terlihat menarik dengan gaya, warna, dan animasi.</p>
+        </div>
+        <div class="tech-item">
+          <img src="js-icon.png" alt="JavaScript" width="60"/>
+          <h4>JavaScript</h4>
+          <p>Memberikan interaktivitas dan dinamika pada halaman web.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <div class="contact-links">
+        <a href="https://wa.me/628123456789" target="_blank" class="contact-btn">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://instagram.com/username" target="_blank" class="contact-btn">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="mailto:email@example.com" class="contact-btn">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

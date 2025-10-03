@@ -1,0 +1,5 @@
+portfolio/
+│
+├── index.html         # Struktur HTML utama
+├── style.css          # Gaya dan animasi smooth
+└── script.js          # Fungsi interaktif (menu dropdown, close on click)
